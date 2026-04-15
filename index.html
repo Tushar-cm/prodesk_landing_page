@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Prodesk IT - We build digital experiences and help brands grow with modern digital solutions">
+    <title>Prodesk IT - Digital Marketing Agency</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">Prodesk IT</div>
+            <div class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                <span class="theme-icon">🌙</span>
+            </button>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-slider">
+            <div class="slider-container">
+                <div class="slider-item active">
+                    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&h=800&fit=crop" alt="Digital Agency">
+                </div>
+                <div class="slider-item">
+                    <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=1200&h=800&fit=crop" alt="Web Development">
+                </div>
+                <div class="slider-item">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&h=800&fit=crop" alt="Analytics">
+                </div>
+                <div class="slider-item">
+                    <img src="https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=1200&h=800&fit=crop" alt="Marketing">
+                </div>
+            </div>
+            
+            <button class="slider-btn prev" id="prevBtn">❮</button>
+            <button class="slider-btn next" id="nextBtn">❯</button>
+            
+            <div class="slider-dots" id="sliderDots"></div>
+        </div>
+        
+        <div class="hero-content">
+            <h1 class="hero-title" data-aos="fade-up">We Build Digital Experiences</h1>
+            <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="100">
+                Helping brands grow with modern digital solutions
+            </p>
+            <button class="cta-button" data-aos="fade-up" data-aos-delay="200">
+                Get Started
+            </button>
+        </div>
+        
+        <div class="hero-overlay"></div>
+    </section>
+
+    <!-- About Section (Brief) -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">Why Choose Prodesk IT?</h2>
+            <div class="about-grid">
+                <div class="about-card">
+                    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=500&h=300&fit=crop" alt="Fast & Reliable" class="card-image">
+                    <h3>Fast & Reliable</h3>
+                    <p>We deliver high-performance solutions that scale with your business growth</p>
+                </div>
+                <div class="about-card">
+                    <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=500&h=300&fit=crop" alt="Creative Solutions" class="card-image">
+                    <h3>Creative Solutions</h3>
+                    <p>Our team brings fresh ideas and innovative strategies to every project</p>
+                </div>
+                <div class="about-card">
+                    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=500&h=300&fit=crop" alt="Expert Support" class="card-image">
+                    <h3>Expert Support</h3>
+                    <p>Dedicated professionals ready to help you achieve your digital goals</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <div class="services-grid">
+                <!-- Service Card 1 -->
+                <div class="service-card">
+                    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=500&h=300&fit=crop" alt="SEO Optimization" class="card-image">
+                    <h3 class="service-title">SEO Optimization</h3>
+                    <p class="service-description">
+                        Boost your online visibility with our cutting-edge SEO strategies. We help your brand rank higher on search engines.
+                    </p>
+                    <a href="#" class="service-link">Learn More →</a>
+                </div>
+
+                <!-- Service Card 2 -->
+                <div class="service-card">
+                    <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500&h=300&fit=crop" alt="Web Development" class="card-image">
+                    <h3 class="service-title">Web Development</h3>
+                    <p class="service-description">
+                        Custom-built websites and applications designed for performance and user experience. Modern tech stack included.
+                    </p>
+                    <a href="#" class="service-link">Learn More →</a>
+                </div>
+
+                <!-- Service Card 3 -->
+                <div class="service-card">
+                    <img src="https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=500&h=300&fit=crop" alt="Digital Marketing" class="card-image">
+                    <h3 class="service-title">Digital Marketing</h3>
+                    <p class="service-description">
+                        Strategic campaigns across social media, email, and content. We drive real results and measurable growth.
+                    </p>
+                    <a href="#" class="service-link">Learn More →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Ready to Get Started?</h2>
+            <p class="contact-subtitle">Let's work together to transform your digital presence</p>
+            <div class="contact-buttons">
+                <button class="cta-button primary">Contact Us</button>
+                <button class="cta-button secondary">Schedule a Call</button>
+            </div>
+            <div class="contact-info">
+                <p>📧 hello@prodesk-it.com</p>
+                <p>📱 +1 (555) 123-4567</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Prodesk IT. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#" class="social-link">Twitter</a>
+                <a href="#" class="social-link">LinkedIn</a>
+                <a href="#" class="social-link">Instagram</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
